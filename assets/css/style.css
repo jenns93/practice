@@ -6,4 +6,19 @@
 }
 body{
     font-family: roboto,sans-serif;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+/* headings and logo */
+
+h1, h2{
+    font-family: montsrrat,sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #252525;
+}
+#logo{
+    float: left;
+    font-size: 250%;
 }
