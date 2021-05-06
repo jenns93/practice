@@ -9,6 +9,7 @@ body{
     font-weight: 500;
     color: #3a3a3a;
     background-color:  rgba(214, 220, 207, 0.7);
+    
 }
 /* headings and logo */
 
@@ -70,8 +71,9 @@ h1, h2{
     position: relative;
     
 }
-#cover-text, #cover-text h2{
+#cover-text, #cover-text h2, #cover-text h3{
     color:#f4f5f2;
+    margin:5px 0 0 5px;
     
 }
 
@@ -107,32 +109,31 @@ h1, h2{
 
     position: absolute;
 }
-#cover-text h3{
-    padding-bottom: 10px;
-}
+
 /* mind, yoga and med summeries */
 #sum-banner{
     text-transform: none;
     font-family: roboto;
-    margin:10px 10px 10px 10px;
+    margin:10px 10px 10px 90px;
 }
-h3{
-    margin-top: 10px;
+
+div li{
+    list-style: none;
+    margin-left: 30px;
 }
 #mind-sum{
     height:300px;
     width:60%;
     float: right;
-    background-color: red;
     font-size: 160%;
     line-height: 50px;
+    
     
 }
 #yoga-sum{
     height:300px;
      width:60%;
     float: right;
-    background-color: blue;
     font-size: 160%;
     line-height: 50px;
 }
@@ -140,31 +141,77 @@ h3{
     height:300px;
      width:60%;
     float: right;
-    background-color: green;
     font-size: 160%;
     line-height: 50px;
 }
 hr{
-    border-top: 3px solid #3a3a3a;
+    border-top: 1px solid #3a3a3a;
     width:100%;
-    margin: 5px 0;
 }
 /* mind, yoga and med side imgs */
 #mind-img{
     height: 300px;
-    width: 40%;
+    width: 300px;
     float: left;
-    background-color: red;
+   
 }
 #yoga-img{
     height: 300px;
-    width: 40%;
+    width: 300px;
     float: left;
-    background-color: blue;
+    
 }
 #med-img{
     height: 300px;
-    width: 40%;
+    width: 300px;
     float: left;
-    background-color: green;
+    
+}
+#mind-container{
+    height: 200px;
+    width: 200px;
+    padding:20px;
+    border: 1px solid #c7c9c3;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin:20px 0 0 120px;
+    background-color: #c7c9c3;
+}
+#mind-cover-bg{
+     background: url(../images/mind-img.jpg) no-repeat center center;
+     height: 100%;
+     background-size: 300px;
+     border-radius: 50%;
+}
+#yoga-container{
+    height: 200px;
+    width: 200px;
+    padding:20px;
+    border: 1px solid #c7c9c3;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin:20px 0 0 120px;
+    background-color: #c7c9c3;
+}
+#yoga-cover-bg{
+     background: url(../images/yoga-img.jpg) no-repeat center center;
+     height: 100%;
+     background-size: 300px;
+     border-radius: 50%;
+}
+#med-container{
+    height: 200px;
+    width: 200px;
+    padding:20px;
+    border: 1px solid #c7c9c3;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin:20px 0 0 120px;
+    background-color: #c7c9c3;
+}
+#med-cover-bg{
+     background: url(../images/med-img.jpg) no-repeat center center;
+     height: 100%;
+     background-size: 300px;
+     border-radius: 50%;
 }
