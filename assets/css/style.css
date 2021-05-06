@@ -24,7 +24,7 @@ h1, h2{
 #logo{
     float: left;
     font-size: 250%;
-    margin-left: 25px;
+    margin-left: 50px;
 
 }
 /* nav links */
@@ -114,7 +114,8 @@ h1, h2{
 #sum-banner{
     text-transform: none;
     font-family: roboto;
-    margin:10px 10px 10px 90px;
+    font-weight: 800 !important;
+    margin:10px 10px 10px 120px;
 }
 
 div li{
