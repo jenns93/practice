@@ -65,7 +65,7 @@ h1, h2{
 
 /* hero image & cover text */
 #hero-outer{
-     height: 600px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -82,6 +82,15 @@ h1, h2{
     height: 650px;
     width: 100%;
     background: url(../images/hero-img.jpg) no-repeat center center;
+    /* hero zoom animation */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#hero-med{
+    height: 650px;
+    width: 100%;
+    background: url(../images/med-main-img.jpg) no-repeat center center;
     /* hero zoom animation */
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -163,7 +172,7 @@ hr{
     margin-left: 5%;
     padding: 5px 0 5px 0;
 }
-/* mind, yoga and med side imgs */
+/* mind, yoga and med imgs */
 #sum-imgs{
     width: 30%;
     margin: 0 auto;
@@ -176,7 +185,7 @@ hr{
     width: 200px;
     padding:20px;
     border: 0px solid #3a3a3a;
-    border-radius: 50%;
+    border-radius:50%;
     margin: 0 auto;
     background-color:  #c3cec3;
    
