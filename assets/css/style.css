@@ -229,3 +229,21 @@ hr{
     font-size: 250%;
     padding-top: 30px;
 }
+/* footer social links */
+footer{
+    height: 100px;
+    background-color: #c3cec3;
+    
+}
+.social{
+    text-align: center;
+    
+}
+.social > li{
+    display: inline;
+}
+.social i{
+    font-size: 200%;
+    color: #f4f5f2;
+    padding: 30px 5% 0 0;
+}
