@@ -127,7 +127,6 @@ div li{
     list-style: none;
 }
 #summaries-left{
-    z-index: 2;
     padding:30px 0 30px 30px;
     width:35%;
     float: left;
@@ -138,7 +137,6 @@ div li{
 }
 
 #summaries-right{
-    z-index: 2;
     padding:30px 30px 30px 0;
     width:35%;
     float: right;
@@ -167,7 +165,6 @@ hr{
 }
 /* mind, yoga and med side imgs */
 #sum-imgs{
-    z-index: 2;
     width: 30%;
     margin: 0 auto;
     
@@ -208,7 +205,7 @@ hr{
 #new-you{
    background: url(../images/lower-section.jpg) no-repeat center center ;
    background-size: cover;
-   margin-top: 20px;
+   margin: 20px 0 20px 0;
    height: 300px;
   
 }
@@ -246,4 +243,28 @@ footer{
     font-size: 200%;
     color: #f4f5f2;
     padding: 30px 5% 0 0;
+}
+/* media quires */
+/* med - large screens from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #sum-all{
+        width: 65%;
+        height: 400px;
+        margin: 0 auto;
+        
+    }
+   #summaries-left, #summaries-right{
+       width: 100%;
+       float: left;
+       padding: 0;
+       font-size: 130%;
+   }
+   #sum-imgs{
+       clear: both;
+       width: 100%;
+       float: left;
+       padding: 0 0 10px 0;
+   }
+   
+
 }
