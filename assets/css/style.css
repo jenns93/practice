@@ -18,14 +18,14 @@ h1, h2{
     font-weight: 200;
     text-transform: capitalize;
     letter-spacing: 1px;
-    color: #3a3a3a;
+    
 }
 
 #logo{
     float: left;
     font-size: 250%;
     margin-left: 50px;
-
+    color: #3a3a3a;
 }
 /* nav links */
 #menu{
@@ -117,8 +117,9 @@ h1, h2{
     text-transform: none;
     font-family: roboto;
     font-weight: 800 !important;
-    padding: 10px 0 20px 0;
-
+    padding: 10px 0 10px 0;
+    
+    
    
 }
 
@@ -148,22 +149,28 @@ div li{
     
 }
 #summaries-right i{
-    padding-left: 10px;
+    padding-left: 30px;
+    font-size: 130%;
+    color: rgba(72, 75, 72, 0.6);
 }
 #summaries-left i{
-    padding-right: 10px;
+    padding-right: 30px;
+    font-size: 130%;
+    color: rgba(72, 75, 72, 0.6);
 }
 
 hr{
     border-top: 1px solid #3a3a3a;
-    width:100%;
-    padding: 10px 0 10px 0;
+    width:90%;
+    margin-left: 5%;
+    padding: 5px 0 5px 0;
 }
 /* mind, yoga and med side imgs */
 #sum-imgs{
     z-index: 2;
     width: 30%;
     margin: 0 auto;
+    
 
 }
 
@@ -171,10 +178,10 @@ hr{
     height: 200px;
     width: 200px;
     padding:20px;
-    border: 1px solid #3a3a3a;
+    border: 0px solid #3a3a3a;
     border-radius: 50%;
     margin: 0 auto;
-    
+    background-color:  #c3cec3;
    
 }
 #img-container div{
@@ -201,7 +208,22 @@ hr{
 #new-you{
    background: url(../images/lower-section.jpg) no-repeat center center ;
    background-size: cover;
+   margin-top: 20px;
+   height: 300px;
+  
 }
 #new-you div{
     background-color: rgba(114, 117, 111, 0.6);
+    color:#f4f5f2;
+    width:25%;
+    height:300px;
+    float: left;
+    text-align: center;
+}
+#new-you h2{
+    padding-top: 100px;
+}
+#new-you i{
+    font-size: 250%;
+    padding-top: 30px;
 }
