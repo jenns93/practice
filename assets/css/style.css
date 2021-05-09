@@ -206,7 +206,7 @@ hr{
    background: url(../images/lower-section.jpg) no-repeat center center ;
    background-size: cover;
    margin: 20px 0 20px 0;
-   height: 300px;
+   overflow: hidden;
   
 }
 #new-you div{
@@ -268,6 +268,7 @@ footer{
        padding: 0 0 10px 0;
    }
    
+   
 
 }
 /* med screens 950px wide and down */
@@ -291,7 +292,14 @@ footer{
        float: left;
        padding: 0;
        font-size: 100%;
-       
-       
+  }
+   #new-you > div{
+       width: 100%;
+       clear: both;
+       height: 125px;
+       padding: 0;
+   }
+   #new-you h2, i{
+       padding: 0;
    }
 }
