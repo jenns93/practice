@@ -219,6 +219,8 @@ hr{
     height:300px;
     float: left;
     text-align: center;
+    border: 1.5px solid white;
+    box-sizing: border-box;
 }
 #new-you h2{
     padding-top: 100px;
