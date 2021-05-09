@@ -112,22 +112,37 @@ h1, h2{
 
 /* mind, yoga and med summeries */
 #sum-banner{
+    text-align: center;
     text-transform: none;
     font-family: roboto;
     font-weight: 800 !important;
-    margin:10px 10px 10px 120px;
+    padding: 20px 0 10px 0;
+    background-color: green;
+   
 }
 
 div li{
     list-style: none;
-    margin-left: 30px;
 }
-#summerys{
-    height:300px;
-    width:60%;
+#summaries-left{
+    padding:30px 0 30px 30px;
+    width:35%;
+    float: left;
+    font-size: 160%;
+    line-height: 100px;   
+    text-align: left;
+    
+    background-color: blue; 
+}
+#summaries-right{
+    padding:30px 30px 30px 0;
+    width:35%;
     float: right;
     font-size: 160%;
-    line-height: 50px;    
+    line-height: 100px; 
+    text-align: right;
+    background-color: red;
+    
 }
 
 hr{
@@ -136,31 +151,34 @@ hr{
 }
 /* mind, yoga and med side imgs */
 #sum-imgs{
-    height: 300px;
-    width: 300px;
-    float: left;
-   
+    background-color: yellow;
+    width: 30%;
+    margin: 0 auto;
+
 }
 
 #img-container{
     height: 200px;
     width: 200px;
-    padding:20px;
+    padding:30px;
     border: 1px solid #c7c9c3;
     border-radius: 50%;
     margin: 0 auto;
-    margin:20px 0 0 120px;
+    
     background-color: #c7c9c3;
 }
 #img-container div{
-    height: 100%;
+     height: 100%;
      background-size: 300px;
      border-radius: 50%;
 }
+
+
 #mind-cover-bg{
      background: url(../images/mind-img.jpg) no-repeat center center;
      
 }
+
 #yoga-cover-bg{
      background: url(../images/yoga-img.jpg) no-repeat center center;
 
@@ -169,3 +187,43 @@ hr{
 #med-cover-bg{
      background: url(../images/med-img.jpg) no-repeat center center;
     }
+/* scroll animations */
+#b4scroll{
+    height: 100px;
+    width: 100px;
+}
+#afterscroll{
+     height: 100px;
+    width: 100px;
+}
+/* test */
+.see{
+    visibility: hidden;
+}
+.butt1:active + .see{
+    visibility: visible;
+    color: black;
+}
+.hide{
+    visibility: hidden;
+   
+}
+.test:active + .hide{
+    visibility: visible;
+    
+}
+
+.pic-test{
+    background: url(../images/yoga-img.jpg);
+}
+.info{
+    visibility: hidden;
+     
+}
+.pic-test:hover + .info{
+   transition: 2s;
+    visibility: visible;
+    color: red;
+    transition: 2s;
+}
+
