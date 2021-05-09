@@ -245,6 +245,7 @@ footer{
     padding: 30px 5% 0 0;
 }
 /* media quires */
+
 /* med - large screens from 1200px wide and down */
 @media screen and (max-width: 1200px){
     #sum-all{
@@ -267,4 +268,14 @@ footer{
    }
    
 
+}
+/* med screens 950px wide and down */
+
+@media screen and (max-width: 950px){
+    #menu{
+        clear: left;
+        float: left;
+        margin: 0 0 20px 30px;
+        line-height: 25px;
+    }
 }
