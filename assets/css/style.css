@@ -11,6 +11,7 @@ body{
 
     
 }
+
 /* headings and logo */
 
 h1, h2{
@@ -74,6 +75,7 @@ h1, h2{
 #cover-text, #cover-text h2, #cover-text h3{
     color:#f4f5f2;
     margin:2px 0 0 5px;
+    padding-right: 5px;
     
 }
 
