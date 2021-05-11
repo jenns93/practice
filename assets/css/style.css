@@ -253,7 +253,7 @@ footer{
 .social i{
     font-size: 200%;
     color: #f4f5f2;
-    padding: 15px 5% 10px 0;
+    padding: 15px 5% 0 0;
 }
 /* media quires */
 
@@ -279,7 +279,10 @@ footer{
        padding: 0 0 10px 0;
    }
    
-   
+   #video-link{
+       height: 400px;    
+       width: 70%;
+   }
 
 }
 /* med screens 950px wide and down */
@@ -313,4 +316,14 @@ footer{
    #new-you h2, i{
        padding: 0;
    }
+   #video-link{
+       height: 300px;    
+       width: 70%;
+   }
+}
+
+/* video-links */
+
+#video-link{
+    margin-left: 10%;
 }
