@@ -239,7 +239,7 @@ hr{
 }
 /* footer social links */
 footer{
-    height: 100px;
+    height: 60px;
     background-color: #c3cec3;
     
 }
@@ -253,7 +253,7 @@ footer{
 .social i{
     font-size: 200%;
     color: #f4f5f2;
-    padding: 30px 5% 0 0;
+    padding: 15px 5% 10px 0;
 }
 /* media quires */
 
