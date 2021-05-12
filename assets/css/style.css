@@ -327,3 +327,14 @@ footer{
 #video-link{
     margin-left: 10%;
 }
+/* meditation page */
+
+#intro h2{
+    background-color: #c3cec3;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+#med-history{
+    background: url(../images/med-history.jpg) no-repeat center center;
+    
+}
