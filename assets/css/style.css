@@ -69,6 +69,10 @@ h1, h2{
     width: 100%;
     overflow: hidden;
     position: relative;
+      /* hero zoom animation */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
     
 }
 #cover-text, #cover-text h2, #cover-text h3{
@@ -79,23 +83,29 @@ h1, h2{
 }
 
 
-#hero-img{
+#hero-home{
     height: 650px;
     width: 100%;
-    background: url(../images/hero-img.jpg) no-repeat center center;
-    /* hero zoom animation */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    background: url(../images/home-main.jpg) no-repeat center center;
+  
 }
 #hero-med{
     height: 650px;
     width: 100%;
     background: url(../images/med-main-img.jpg) no-repeat center center;
-    /* hero zoom animation */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+}
+#hero-mind{
+    height: 650px;
+    width: 100%;
+    background: url(../images/mind-main.jpg) no-repeat center center;
+    
+}
+#hero-yoga{
+    height: 650px;
+    width: 100%;
+    background: url(../images/yoga-main.jpg) no-repeat center center;
+    
+  
 }
 /* hero img zoom */
 @keyframes hero-zoom{
@@ -388,10 +398,5 @@ footer{
     width: 60%;
 }
 /* Mindfulness page*/
-#mind-main{
-    background: url(../images/mind-main.jpg) no-repeat center center;
-}
+
 /* Yoga page*/
-#Yoga-main{
-    background: url(../images/yoga-main.jpg) no-repeat center center;
-}
