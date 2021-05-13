@@ -164,7 +164,7 @@ div li{
     font-size: 250%;
     float: right;
     color: rgba(72, 75, 72, 0.6);
-    line-height: 80px;
+    line-height: 60px;
    text-align: center;
 }
 
@@ -328,8 +328,9 @@ footer{
     padding-bottom: 20px;
 }
 /* meditation page */
-
-
+#med-main{
+    background: url(../images/med-main.jpg) no-repeat center center;
+}
 #med-history{
     background: url(../images/med-history.jpg) no-repeat center center;   
 }
@@ -385,4 +386,12 @@ footer{
 #breakdown p{
     padding: 50px 0 0 80px;
     width: 60%;
+}
+/* Mindfulness page*/
+#mind-main{
+    background: url(../images/mind-main.jpg) no-repeat center center;
+}
+/* Yoga page*/
+#Yoga-main{
+    background: url(../images/yoga-main.jpg) no-repeat center center;
 }
