@@ -325,6 +325,7 @@ footer{
 
 #video-link{
     margin-left: 10%;
+    padding-bottom: 20px;
 }
 /* meditation page */
 
@@ -335,14 +336,24 @@ footer{
 #med-setup{
     background: url(../images/med-setup.jpg) no-repeat center center;
 }
+#menatl-health{
+    background: url(../images/mental-health.jpg) no-repeat center center;
+}
+#physical{
+    background: url(../images/physical.jpg) no-repeat center center;
+}
+#emotional{
+    background: url(../images/emotional.jpg) no-repeat center center;
+}
 
 #intro{
-
+    
     width:60%;
     float: left;
     font-size: 100%;
     line-height: 20px; 
     text-align: left;
+    
     
 }
 #intro p{
@@ -356,4 +367,22 @@ footer{
    
     line-height: 80px; 
     text-align: left;
+}
+#basics{
+    width: 100%;
+    text-align: left;
+    padding:10px 0 20px 130px;
+    line-height: 30px;
+    font-size: 120%;
+}
+#breakdown{
+    width:60%;
+    float: left;
+    font-size: 120%;
+    line-height: 30px; 
+    text-align: left;
+}
+#breakdown p{
+    padding: 50px 0 0 80px;
+    width: 60%;
 }
