@@ -123,6 +123,17 @@ h1, h2{
 }
 
 /* mind, yoga and med summeries */
+#img-overlay{
+     background-color: rgba(114, 117, 111, 0.5);
+     color:#f4f5f2;
+     word-spacing: 5px;
+     text-transform: capitalize;
+     text-align: center;
+     line-height: 30px;
+     width: 100%;
+     
+
+}
 #sum-banner{
     text-align: center;
     text-transform: none;
@@ -183,19 +194,21 @@ hr{
 }
 
 #img-container{
-    height: 200px;
-    width: 200px;
-    padding:20px;
+    height: 300px;
+    width: 300px;
+    
     border: 0px solid #3a3a3a;
-    border-radius:50%;
-    margin: 0 auto;
-    background-color:  #c3cec3;
+    float: left;
+    
+    margin-left: 20px;
+    
    
 }
 #img-container div{
      height: 100%;
      background-size: 300px;
-     border-radius: 50%;
+      
+     
 }
 
 
@@ -329,12 +342,11 @@ footer{
 }
 /* meditation page */
 
-#intro h2{
-    background-color: #c3cec3;
-    text-align: center;
-    padding: 5px 0 5px 0;
+#intro{
+    float: right;
 }
 #med-history{
     background: url(../images/med-history.jpg) no-repeat center center;
+    
     
 }
