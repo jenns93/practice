@@ -132,7 +132,9 @@ h1, h2{
      line-height: 30px;
      width: 100%;
      
-
+}
+#img-overlay h2, #img-overlay h3{
+    padding-top: 120px;
 }
 #sum-banner{
     text-align: center;
@@ -141,43 +143,32 @@ h1, h2{
     font-weight: 800 !important;
     padding: 10px 0 10px 0;
     
-    
-   
 }
 
 div li{
     list-style: none;
 }
-#summaries-left{
-    padding:30px 0 30px 30px;
-    width:35%;
+
+#summaries{
+    
+    margin-left: 100px;
+    width:33%;
     float: left;
     font-size: 160%;
-    line-height: 100px;   
-    text-align: left;
-
-}
-
-#summaries-right{
-    padding:30px 30px 30px 0;
-    width:35%;
-    float: right;
-    font-size: 160%;
     line-height: 100px; 
-    text-align: right;
+    text-align: left;
    
     
 }
-#summaries-right i{
-    padding-left: 30px;
-    font-size: 130%;
+#icons{
+    width: 25%;
+    font-size: 250%;
+    float: right;
     color: rgba(72, 75, 72, 0.6);
+    line-height: 100px;
+   text-align: center;
 }
-#summaries-left i{
-    padding-right: 30px;
-    font-size: 130%;
-    color: rgba(72, 75, 72, 0.6);
-}
+
 
 hr{
     border-top: 1px solid #3a3a3a;
@@ -185,45 +176,49 @@ hr{
     margin-left: 5%;
     padding: 5px 0 5px 0;
 }
-/* mind, yoga and med imgs */
-#sum-imgs{
-    width: 30%;
-    margin: 0 auto;
+#info-para{
+    margin-left: 100px;
+    width:33%;
+    float: left;
+    font-size: 100%;
+    line-height: 20px; 
+    text-align: left;
     
-
 }
+/* mind, yoga and med imgs */
+
 
 #img-container{
     height: 300px;
-    width: 300px;
+    width: 33%;
     
     border: 0px solid #3a3a3a;
     float: left;
     
-    margin-left: 20px;
+   
     
    
 }
 #img-container div{
      height: 100%;
-     background-size: 300px;
-      
-     
+     background-size: 500px;
+     margin: 50px 0 50px 0;
 }
 
 
 #mind-cover-bg{
      background: url(../images/mind-img.jpg) no-repeat center center;
-     
+        
 }
 
 #yoga-cover-bg{
      background: url(../images/yoga-img.jpg) no-repeat center center;
-
+    
     }
 
 #med-cover-bg{
     background: url(../images/med-img.jpg) no-repeat center center;
+    
 }
 /* new you section */
 #new-you{
