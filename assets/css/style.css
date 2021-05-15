@@ -143,7 +143,7 @@ h1, h2{
 }
 
 /* mind, yoga and med summeries */
-#img-overlay{
+.img-overlay{
      background-color: rgba(114, 117, 111, 0.5);
      color:#f4f5f2;
      word-spacing: 5px;
@@ -153,10 +153,10 @@ h1, h2{
      width: 100%;
      
 }
-#img-overlay h2, #img-overlay h3{
+.img-overlay h2, .img-overlay h3{
     padding-top: 120px;
 }
-#sum-banner{
+.sum-banner{
     text-align: center;
     text-transform: none;
     font-family: roboto;
@@ -169,7 +169,7 @@ div li{
     list-style: none;
 }
 
-#summaries{
+.summaries{
     
     margin-left: 50px;
     width:40%;
@@ -180,7 +180,7 @@ div li{
    
     
 }
-#icons{
+.icons{
     width: 20%;
     font-size: 250%;
     float: right;
@@ -193,14 +193,13 @@ div li{
 hr{
     border-top: 1px solid #3a3a3a;
     width:90%;
-    margin-left: 5%;
-    padding: 5px 0 15px 0;
+    margin: 10px 0 15px 5%;
 }
 
 /* mind, yoga and med imgs */
 
 
-#img-container{
+.img-container{
     height: 300px;
     width: 35%;
     margin-bottom: 20px;
@@ -211,24 +210,24 @@ hr{
     
    
 }
-#img-container div{
+.img-container div{
      height: 100%;
      background-size: 500px;
      
 }
 
 
-#mind-cover-bg{
+.mind-cover-bg{
      background: url(../images/mind-img.jpg) no-repeat center center;
         
 }
 
-#yoga-cover-bg{
+.yoga-cover-bg{
      background: url(../images/yoga-img.jpg) no-repeat center center;
     
     }
 
-#med-cover-bg{
+.med-cover-bg{
     background: url(../images/med-img.jpg) no-repeat center center;
     
 }
@@ -238,6 +237,7 @@ hr{
    background-size: cover;
    margin: 20px 0 20px 0;
    overflow: hidden;
+   clear: both;
   
 }
 #new-you div{
